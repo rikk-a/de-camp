@@ -43,11 +43,6 @@ resource "google_bigquery_dataset" "dataset" {
   location   = var.region
 }
 
-resource "google_bigquery_dataset" "analytics_dataset" {
-  dataset_id = var.BQ_DATASET_ANALYTICS
-  project    = var.project
-  location   = var.region
-}
 
 resource "google_bigquery_table" "table" {
   dataset_id = google_bigquery_dataset.dataset.dataset_id

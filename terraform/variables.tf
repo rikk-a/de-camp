@@ -31,13 +31,6 @@ variable "BQ_DATASET" {
 }
 
 
-variable "BQ_DATASET_ANALYTICS" {
-  description = "BigQuery Dataset that analytics data will be written to"
-  type = string
-  default = "space_mission_launches_analytics"
-}
-
-
 variable "TABLE_NAME" {
   description = "BigQuery Table"
   type = string
