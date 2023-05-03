@@ -1,7 +1,0 @@
-[2023-05-03T18:27:40.718+0000] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/space_missions_launches_to_gcp.py
-[2023-05-03T18:27:40.718+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/space_missions_launches_to_gcp.py for tasks to queue
-[2023-05-03T18:27:40.719+0000] {logging_mixin.py:137} INFO - [2023-05-03T18:27:40.719+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/space_missions_launches_to_gcp.py
-[2023-05-03T18:27:41.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['space_missions_launches_to_gcp_dag']) retrieved from /opt/airflow/dags/space_missions_launches_to_gcp.py
-[2023-05-03T18:27:41.734+0000] {logging_mixin.py:137} INFO - [2023-05-03T18:27:41.734+0000] {dag.py:2705} INFO - Sync 1 DAGs
-[2023-05-03T18:27:41.769+0000] {logging_mixin.py:137} INFO - [2023-05-03T18:27:41.769+0000] {dag.py:3456} INFO - Setting next_dagrun for space_missions_launches_to_gcp_dag to None, run_after=None
-[2023-05-03T18:27:41.797+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/space_missions_launches_to_gcp.py took 1.083 seconds
