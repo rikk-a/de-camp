@@ -1,0 +1,33 @@
+[2023-05-01T15:04:08.779+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T15:04:07.430540+00:00 [queued]>
+[2023-05-01T15:04:08.784+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T15:04:07.430540+00:00 [queued]>
+[2023-05-01T15:04:08.784+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:04:08.784+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-05-01T15:04:08.784+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:04:08.793+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): space_missions_launches_to_gcp_task> on 2023-05-01 15:04:07.430540+00:00
+[2023-05-01T15:04:08.797+0000] {standard_task_runner.py:55} INFO - Started process 12483 to run task
+[2023-05-01T15:04:08.800+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'space_missions_launches_to_gcp_dag', 'space_missions_launches_to_gcp_task', 'manual__2023-05-01T15:04:07.430540+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/space_missions_launches_to_gcp.py', '--cfg-path', '/tmp/tmpe958tg59']
+[2023-05-01T15:04:08.800+0000] {standard_task_runner.py:83} INFO - Job 71: Subtask space_missions_launches_to_gcp_task
+[2023-05-01T15:04:08.836+0000] {task_command.py:389} INFO - Running <TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T15:04:07.430540+00:00 [running]> on host e47d5c97588c
+[2023-05-01T15:04:08.878+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=viktoria.k
+AIRFLOW_CTX_DAG_ID=space_missions_launches_to_gcp_dag
+AIRFLOW_CTX_TASK_ID=space_missions_launches_to_gcp_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-01T15:04:07.430540+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-01T15:04:07.430540+00:00
+[2023-05-01T15:04:08.884+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-05-01T15:04:10.613+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/space_missions_launches_to_gcp.py", line 38, in mission_launches_to_gcp
+    existed_rows.append = pd.read_csv(BytesIO(gcp_hook.download(bucket_name='de-camp-v1_dl', object_name=file)))
+AttributeError: 'list' object attribute 'append' is read-only
+[2023-05-01T15:04:10.623+0000] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=space_missions_launches_to_gcp_dag, task_id=space_missions_launches_to_gcp_task, execution_date=20230501T150407, start_date=20230501T150408, end_date=20230501T150410
+[2023-05-01T15:04:10.638+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 71 for task space_missions_launches_to_gcp_task ('list' object attribute 'append' is read-only; 12483)
+[2023-05-01T15:04:10.659+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-05-01T15:04:10.692+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

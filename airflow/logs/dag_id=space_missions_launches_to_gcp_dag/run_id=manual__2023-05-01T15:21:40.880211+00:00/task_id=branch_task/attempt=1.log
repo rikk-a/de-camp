@@ -1,0 +1,36 @@
+[2023-05-01T15:21:46.209+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:21:40.880211+00:00 [queued]>
+[2023-05-01T15:21:46.213+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:21:40.880211+00:00 [queued]>
+[2023-05-01T15:21:46.214+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:21:46.214+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-05-01T15:21:46.214+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:21:46.223+0000] {taskinstance.py:1309} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch_task> on 2023-05-01 15:21:40.880211+00:00
+[2023-05-01T15:21:46.228+0000] {standard_task_runner.py:55} INFO - Started process 13328 to run task
+[2023-05-01T15:21:46.230+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'space_missions_launches_to_gcp_dag', 'branch_task', 'manual__2023-05-01T15:21:40.880211+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/space_missions_launches_to_gcp.py', '--cfg-path', '/tmp/tmpkp0d88n3']
+[2023-05-01T15:21:46.230+0000] {standard_task_runner.py:83} INFO - Job 82: Subtask branch_task
+[2023-05-01T15:21:46.264+0000] {task_command.py:389} INFO - Running <TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:21:40.880211+00:00 [running]> on host e47d5c97588c
+[2023-05-01T15:21:46.303+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=space_missions_launches_to_gcp_dag
+AIRFLOW_CTX_TASK_ID=branch_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-01T15:21:40.880211+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-01T15:21:40.880211+00:00
+[2023-05-01T15:21:46.304+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 210, in execute
+    branch = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 173, in execute
+    self.op_kwargs = self.determine_kwargs(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 184, in determine_kwargs
+    return KeywordParameters.determine(self.python_callable, self.op_args, context).unpacking()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/operator_helpers.py", line 161, in determine
+    raise ValueError(f"The key {name!r} in args is a part of kwargs and therefore reserved.")
+ValueError: The key 'ti' in args is a part of kwargs and therefore reserved.
+[2023-05-01T15:21:46.308+0000] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=space_missions_launches_to_gcp_dag, task_id=branch_task, execution_date=20230501T152140, start_date=20230501T152146, end_date=20230501T152146
+[2023-05-01T15:21:46.316+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 82 for task branch_task (The key 'ti' in args is a part of kwargs and therefore reserved.; 13328)
+[2023-05-01T15:21:46.361+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-05-01T15:21:46.392+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

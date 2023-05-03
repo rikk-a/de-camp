@@ -1,0 +1,25 @@
+[2023-05-01T15:59:33.909+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:59:29.844135+00:00 [queued]>
+[2023-05-01T15:59:33.914+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:59:29.844135+00:00 [queued]>
+[2023-05-01T15:59:33.914+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:59:33.914+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-05-01T15:59:33.914+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T15:59:33.923+0000] {taskinstance.py:1309} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch_task> on 2023-05-01 15:59:29.844135+00:00
+[2023-05-01T15:59:33.928+0000] {standard_task_runner.py:55} INFO - Started process 15093 to run task
+[2023-05-01T15:59:33.930+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'space_missions_launches_to_gcp_dag', 'branch_task', 'manual__2023-05-01T15:59:29.844135+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/space_missions_launches_to_gcp.py', '--cfg-path', '/tmp/tmpgfwthyal']
+[2023-05-01T15:59:33.931+0000] {standard_task_runner.py:83} INFO - Job 96: Subtask branch_task
+[2023-05-01T15:59:33.965+0000] {task_command.py:389} INFO - Running <TaskInstance: space_missions_launches_to_gcp_dag.branch_task manual__2023-05-01T15:59:29.844135+00:00 [running]> on host e47d5c97588c
+[2023-05-01T15:59:34.004+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=space_missions_launches_to_gcp_dag
+AIRFLOW_CTX_TASK_ID=branch_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-01T15:59:29.844135+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-01T15:59:29.844135+00:00
+[2023-05-01T15:59:34.010+0000] {python.py:177} INFO - Done. Returned value was: stop_task
+[2023-05-01T15:59:34.010+0000] {python.py:211} INFO - Branch callable return stop_task
+[2023-05-01T15:59:34.010+0000] {skipmixin.py:155} INFO - Following branch stop_task
+[2023-05-01T15:59:34.024+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=space_missions_launches_to_gcp_dag, task_id=branch_task, execution_date=20230501T155929, start_date=20230501T155933, end_date=20230501T155934
+[2023-05-01T15:59:34.062+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-05-01T15:59:34.087+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

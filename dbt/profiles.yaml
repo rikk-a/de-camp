@@ -1,0 +1,14 @@
+de-camp-project:
+  target: dev
+  outputs:
+    dev:
+      project: mission-launches-analytics
+      dataset: mission_launches_dataset
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: ../credentials/de-camp-v1-f45c6758b882.json
+      location: us
+      method: service-account
+      priority: interactive
+      threads: 4
+      type: bigquery

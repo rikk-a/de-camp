@@ -1,0 +1,26 @@
+[2023-05-01T14:15:37.905+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_from_gcs_to_bq_task manual__2023-05-01T14:15:33.538292+00:00 [queued]>
+[2023-05-01T14:15:37.910+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_from_gcs_to_bq_task manual__2023-05-01T14:15:33.538292+00:00 [queued]>
+[2023-05-01T14:15:37.910+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T14:15:37.910+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-05-01T14:15:37.910+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T14:15:37.919+0000] {taskinstance.py:1309} INFO - Executing <Task(GCSToBigQueryOperator): space_missions_launches_from_gcs_to_bq_task> on 2023-05-01 14:15:33.538292+00:00
+[2023-05-01T14:15:37.924+0000] {standard_task_runner.py:55} INFO - Started process 10190 to run task
+[2023-05-01T14:15:37.926+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'space_missions_launches_to_gcp_dag', 'space_missions_launches_from_gcs_to_bq_task', 'manual__2023-05-01T14:15:33.538292+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/space_missions_launches_to_gcp.py', '--cfg-path', '/tmp/tmpgywgettm']
+[2023-05-01T14:15:37.926+0000] {standard_task_runner.py:83} INFO - Job 47: Subtask space_missions_launches_from_gcs_to_bq_task
+[2023-05-01T14:15:37.961+0000] {task_command.py:389} INFO - Running <TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_from_gcs_to_bq_task manual__2023-05-01T14:15:33.538292+00:00 [running]> on host e47d5c97588c
+[2023-05-01T14:15:38.002+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=viktoria.k
+AIRFLOW_CTX_DAG_ID=space_missions_launches_to_gcp_dag
+AIRFLOW_CTX_TASK_ID=space_missions_launches_from_gcs_to_bq_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-01T14:15:33.538292+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-01T14:15:33.538292+00:00
+[2023-05-01T14:15:38.007+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-05-01T14:15:38.011+0000] {gcs_to_bigquery.py:368} INFO - Creating a new BigQuery table for storing data...
+[2023-05-01T14:15:38.042+0000] {gcs_to_bigquery.py:574} INFO - Creating external table: de-camp-v1.space_mission_launches.mission_launches
+[2023-05-01T14:15:38.935+0000] {gcs_to_bigquery.py:578} INFO - External table created successfully: de-camp-v1.space_mission_launches.mission_launches
+[2023-05-01T14:15:38.960+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=space_missions_launches_to_gcp_dag, task_id=space_missions_launches_from_gcs_to_bq_task, execution_date=20230501T141533, start_date=20230501T141537, end_date=20230501T141538
+[2023-05-01T14:15:38.980+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-05-01T14:15:38.990+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

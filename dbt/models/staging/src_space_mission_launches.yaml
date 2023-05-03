@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-camp-v1
+    schema: space_mission_launches
+
+    tables:
+      - name: mission_launches
+        description: ""

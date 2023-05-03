@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_space_mission_launches__mission_launches
+    description: Contains mission launches information.
+    columns:
+      - name: organisation
+        description: Organisation that launched mission.
+        tests:
+          - not_null
+      - name: location
+        description: Location of mission start.
+      - name: date
+        description: Date of mission start.
+      - name: detail
+        description: Mission name and lead companies info.
+      - name: rocket_status
+        description: Displays whether rocket is active or retired.
+      - name: price
+        description: Mission price.
+      - name: mission_status
+        description: Displays whether mission succeed or failed.

@@ -1,0 +1,67 @@
+[2023-05-01T13:39:26.777+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T11:30:38.175260+00:00 [queued]>
+[2023-05-01T13:39:26.782+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T11:30:38.175260+00:00 [queued]>
+[2023-05-01T13:39:26.782+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T13:39:26.782+0000] {taskinstance.py:1289} INFO - Starting attempt 17 of 17
+[2023-05-01T13:39:26.782+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-01T13:39:26.791+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): space_missions_launches_to_gcp_task> on 2023-05-01 11:30:38.175260+00:00
+[2023-05-01T13:39:26.796+0000] {standard_task_runner.py:55} INFO - Started process 8495 to run task
+[2023-05-01T13:39:26.797+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'space_missions_launches_to_gcp_dag', 'space_missions_launches_to_gcp_task', 'manual__2023-05-01T11:30:38.175260+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/space_missions_launches_to_gcp.py', '--cfg-path', '/tmp/tmp15rv7efk']
+[2023-05-01T13:39:26.797+0000] {standard_task_runner.py:83} INFO - Job 31: Subtask space_missions_launches_to_gcp_task
+[2023-05-01T13:39:26.834+0000] {task_command.py:389} INFO - Running <TaskInstance: space_missions_launches_to_gcp_dag.space_missions_launches_to_gcp_task manual__2023-05-01T11:30:38.175260+00:00 [running]> on host e47d5c97588c
+[2023-05-01T13:39:26.876+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=viktoria.k
+AIRFLOW_CTX_DAG_ID=space_missions_launches_to_gcp_dag
+AIRFLOW_CTX_TASK_ID=space_missions_launches_to_gcp_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-01T11:30:38.175260+00:00
+AIRFLOW_CTX_TRY_NUMBER=17
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-01T11:30:38.175260+00:00
+[2023-05-01T13:39:26.882+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-05-01T13:39:27.861+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/space_missions_launches_to_gcp.py", line 33, in mission_launches_to_gcp
+    gcp_hook.upload(bucket_name='de-camp-v1_dl', object_name=mission_launches, filename=temp.name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 510, in upload
+    blob = bucket.blob(blob_name=object_name, chunk_size=chunk_size)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/bucket.py", line 801, in blob
+    generation=generation,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 216, in __init__
+    name = _bytes_to_unicode(name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers/__init__.py", line 352, in _bytes_to_unicode
+    raise ValueError("%r could not be converted to unicode" % (value,))
+ValueError:      unnamed: 0.1  organisation  ... mission_status             country
+0               0        SpaceX  ...        Success                 USA
+1               1          CASC  ...        Success               China
+2               3     Roscosmos  ...        Success  Russian Federation
+3               4           ULA  ...        Success                 USA
+4               5          CASC  ...        Success               China
+..            ...           ...  ...            ...                 ...
+959          3855  US Air Force  ...        Success                 USA
+960          3971  US Air Force  ...        Success                 USA
+961          3993  US Air Force  ...        Success                 USA
+962          4000  US Air Force  ...        Success                 USA
+963          4020  US Air Force  ...        Failure                 USA
+
+[964 rows x 9 columns] could not be converted to unicode
+[2023-05-01T13:39:27.867+0000] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=space_missions_launches_to_gcp_dag, task_id=space_missions_launches_to_gcp_task, execution_date=20230501T113038, start_date=20230501T133926, end_date=20230501T133927
+[2023-05-01T13:39:27.876+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 31 for task space_missions_launches_to_gcp_task (     unnamed: 0.1  organisation  ... mission_status             country
+0               0        SpaceX  ...        Success                 USA
+1               1          CASC  ...        Success               China
+2               3     Roscosmos  ...        Success  Russian Federation
+3               4           ULA  ...        Success                 USA
+4               5          CASC  ...        Success               China
+..            ...           ...  ...            ...                 ...
+959          3855  US Air Force  ...        Success                 USA
+960          3971  US Air Force  ...        Success                 USA
+961          3993  US Air Force  ...        Success                 USA
+962          4000  US Air Force  ...        Success                 USA
+963          4020  US Air Force  ...        Failure                 USA
+
+[964 rows x 9 columns] could not be converted to unicode; 8495)
+[2023-05-01T13:39:27.893+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-05-01T13:39:27.903+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

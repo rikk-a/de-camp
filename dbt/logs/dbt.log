@@ -1,0 +1,1194 @@
+[0m21:51:29.549330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe002f59cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00184fac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00184fa60>]}
+
+
+============================== 21:51:29.550576 | e82c3f14-a8bb-410e-9c2d-8cb1ef0722fd ==============================
+[0m21:51:29.550576 [info ] [MainThread]: Running with dbt=1.5.0
+[0m21:51:29.551015 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'use_colors': 'True', 'debug': 'False', 'log_format': 'default', 'static_parser': 'True', 'log_cache_events': 'False', 'target_path': 'None', 'warn_error': 'None', 'quiet': 'False', 'version_check': 'True', 'write_json': 'True', 'log_path': 'logs', 'partial_parse': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'profiles_dir': '.', 'introspect': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:51:29.551361 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/vi/projects/de_camp/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:51:29.551789 [debug] [MainThread]: Command `dbt build` failed at 21:51:29.551713 after 0.00 seconds
+[0m21:51:29.552013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe002f59cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00184fa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00184f910>]}
+[0m21:51:29.552247 [debug] [MainThread]: Flushing usage events
+[0m21:55:27.883780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41d88dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41c16bb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41c16bac0>]}
+
+
+============================== 21:55:27.885023 | 4fa5c8d3-d515-455a-8635-3c3afaf2ce55 ==============================
+[0m21:55:27.885023 [info ] [MainThread]: Running with dbt=1.5.0
+[0m21:55:27.885473 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '.', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'version_check': 'True', 'use_experimental_parser': 'False', 'write_json': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'warn_error': 'None', 'log_path': 'logs', 'quiet': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'target_path': 'None', 'no_print': 'None', 'log_format': 'default', 'printer_width': '80', 'fail_fast': 'False', 'cache_selected_only': 'False', 'debug': 'False', 'static_parser': 'True'}
+[0m21:55:27.885864 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/vi/projects/de_camp/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:55:27.886316 [debug] [MainThread]: Command `dbt build` failed at 21:55:27.886236 after 0.00 seconds
+[0m21:55:27.886548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41d88dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41c16baf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb41c16b970>]}
+[0m21:55:27.886808 [debug] [MainThread]: Flushing usage events
+[0m21:55:51.114782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff722c91d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff72156fbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff72156fb80>]}
+
+
+============================== 21:55:51.115975 | cfb2b61c-2965-4fc0-9eaa-6d6c4fb85b27 ==============================
+[0m21:55:51.115975 [info ] [MainThread]: Running with dbt=1.5.0
+[0m21:55:51.116422 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'partial_parse': 'True', 'printer_width': '80', 'fail_fast': 'False', 'use_colors': 'True', 'log_format': 'default', 'static_parser': 'True', 'debug': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'quiet': 'False', 'version_check': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'profiles_dir': '.'}
+[0m21:55:51.118243 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m21:55:51.118797 [debug] [MainThread]: Command `dbt build` failed at 21:55:51.118692 after 0.01 seconds
+[0m21:55:51.119134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff722c91d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff7215b4460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff7215b4a60>]}
+[0m21:55:51.119371 [debug] [MainThread]: Flushing usage events
+[0m21:56:34.035040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc7171d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc5a4fb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc5a4fb20>]}
+
+
+============================== 21:56:34.036266 | 59e142ce-bd48-4129-87ea-cbd54c302594 ==============================
+[0m21:56:34.036266 [info ] [MainThread]: Running with dbt=1.5.0
+[0m21:56:34.036728 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'cache_selected_only': 'False', 'version_check': 'True', 'warn_error': 'None', 'profiles_dir': '.', 'static_parser': 'True', 'no_print': 'None', 'introspect': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'fail_fast': 'False', 'printer_width': '80', 'quiet': 'False', 'write_json': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'debug': 'False'}
+[0m21:56:34.038419 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m21:56:34.038881 [debug] [MainThread]: Command `dbt build` failed at 21:56:34.038802 after 0.01 seconds
+[0m21:56:34.039109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc7171d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc5a94400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc5a94a00>]}
+[0m21:56:34.039347 [debug] [MainThread]: Flushing usage events
+[0m21:59:42.397611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4465b89cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4464467970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44644679d0>]}
+
+
+============================== 21:59:42.398879 | 48b121e9-487b-4a38-9302-608b199f2090 ==============================
+[0m21:59:42.398879 [info ] [MainThread]: Running with dbt=1.5.0
+[0m21:59:42.399339 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'quiet': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'printer_width': '80', 'target_path': 'None', 'warn_error': 'None', 'use_experimental_parser': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'fail_fast': 'False', 'profiles_dir': '.', 'version_check': 'True', 'use_colors': 'True', 'no_print': 'None', 'write_json': 'True', 'log_format': 'default'}
+[0m21:59:42.399631 [info ] [MainThread]: dbt version: 1.5.0
+[0m21:59:42.399911 [info ] [MainThread]: python version: 3.10.6
+[0m21:59:42.400161 [info ] [MainThread]: python path: /home/vi/.cache/pypoetry/virtualenvs/de-camp-pfxP3xJA-py3.10/bin/python
+[0m21:59:42.400406 [info ] [MainThread]: os info: Linux-5.19.0-41-generic-x86_64-with-glibc2.35
+[0m21:59:42.400664 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m21:59:42.400937 [info ] [MainThread]: Using dbt_project.yml file at /home/vi/projects/de_camp/dbt/dbt_project.yml
+[0m21:59:42.401201 [info ] [MainThread]: Configuration:
+[0m21:59:42.401479 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m21:59:42.420870 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:59:42.421237 [info ] [MainThread]: Required dependencies:
+[0m21:59:42.421569 [debug] [MainThread]: Executing "git --help"
+[0m21:59:42.422898 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:59:42.423227 [debug] [MainThread]: STDERR: "b''"
+[0m21:59:42.423455 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:59:42.423745 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:59:42.424027 [info ] [MainThread]: dbt looked for a profiles.yml file in ./profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:59:42.424448 [debug] [MainThread]: Command `dbt debug` failed at 21:59:42.424370 after 0.03 seconds
+[0m21:59:42.424696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4465b89cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4464467a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4464467700>]}
+[0m21:59:42.424945 [debug] [MainThread]: Flushing usage events
+[0m22:00:35.170310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb5a389cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb58c67970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb58c67910>]}
+
+
+============================== 22:00:35.171518 | c4694466-0545-4d1d-8953-124690bbc388 ==============================
+[0m22:00:35.171518 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:00:35.172026 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/home/vi/.dbt', 'fail_fast': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None', 'introspect': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'warn_error': 'None'}
+[0m22:00:35.172355 [warn ] [MainThread]: [OpenCommand]: Unable to parse dict {'open_cmd': 'xdg-open', 'profiles_dir': PosixPath('/home/vi/.dbt')}
+[0m22:00:35.172648 [info ] [MainThread]: To view your profiles.yml file, run:
+
+ 
+[0m22:00:35.173136 [debug] [MainThread]: Command `dbt debug` succeeded at 22:00:35.173055 after 0.00 seconds
+[0m22:00:35.173362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb5a389cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb58c67970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb58c67730>]}
+[0m22:00:35.173611 [debug] [MainThread]: Flushing usage events
+[0m22:01:02.489899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa315059cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa31394fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa31394fbe0>]}
+
+
+============================== 22:01:02.491112 | 34610b14-9681-4ce4-8876-179ce2c0adf0 ==============================
+[0m22:01:02.491112 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:01:02.491566 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'profiles_dir': '.', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'write_json': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_format': 'default', 'debug': 'False', 'partial_parse': 'True', 'target_path': 'None', 'no_print': 'None'}
+[0m22:01:02.493322 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m22:01:02.493768 [debug] [MainThread]: Command `dbt run` failed at 22:01:02.493689 after 0.01 seconds
+[0m22:01:02.493988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa315059cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa313998340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa313998940>]}
+[0m22:01:02.494219 [debug] [MainThread]: Flushing usage events
+[0m22:03:39.107975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d62875cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d6116bb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d6116baf0>]}
+
+
+============================== 22:03:39.109169 | c7d544f6-980b-4f3b-8452-f64175c3e7de ==============================
+[0m22:03:39.109169 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:03:39.109584 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'write_json': 'True', 'version_check': 'True', 'profiles_dir': '/home/vi/projects/de_camp/dbt/profiles.yaml', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'no_print': 'None', 'fail_fast': 'False', 'partial_parse': 'True', 'target_path': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'debug': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'warn_error': 'None', 'quiet': 'False', 'static_parser': 'True', 'use_colors': 'True'}
+[0m22:03:39.111379 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m22:03:39.111838 [debug] [MainThread]: Command `dbt build` failed at 22:03:39.111757 after 0.01 seconds
+[0m22:03:39.112069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d62875cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d611b43d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d611b49d0>]}
+[0m22:03:39.112310 [debug] [MainThread]: Flushing usage events
+[0m22:03:47.850623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff25781d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff24077bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff24077b50>]}
+
+
+============================== 22:03:47.851857 | ab9fb1ba-72b8-4a6b-9ab4-acf0ccf79e1d ==============================
+[0m22:03:47.851857 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:03:47.852319 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'warn_error': 'None', 'introspect': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'target_path': 'None', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'profiles_dir': '/home/vi/projects/de_camp/dbt/', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'debug': 'False', 'indirect_selection': 'eager', 'no_print': 'None', 'quiet': 'False', 'use_colors': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'partial_parse': 'True'}
+[0m22:03:47.854055 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m22:03:47.854484 [debug] [MainThread]: Command `dbt build` failed at 22:03:47.854411 after 0.01 seconds
+[0m22:03:47.854705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff25781d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff240bc430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eff240bca30>]}
+[0m22:03:47.854929 [debug] [MainThread]: Flushing usage events
+[0m22:06:07.556900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86eec71cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86ed54fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86ed54fa60>]}
+
+
+============================== 22:06:07.558132 | af701813-9e4d-4514-a226-e94b20f9e6b0 ==============================
+[0m22:06:07.558132 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:06:07.558557 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True', 'version_check': 'True', 'target_path': 'None', 'static_parser': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'partial_parse': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/home/vi/.dbt', 'fail_fast': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'printer_width': '80', 'warn_error': 'None', 'write_json': 'True', 'quiet': 'False', 'log_format': 'default'}
+[0m22:06:07.560417 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'de-camp-project'
+[0m22:06:07.560952 [debug] [MainThread]: Command `dbt build` failed at 22:06:07.560854 after 0.01 seconds
+[0m22:06:07.561220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86eec71cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86ed5983a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86ed5989a0>]}
+[0m22:06:07.561505 [debug] [MainThread]: Flushing usage events
+[0m22:06:25.984701 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e568dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e3f6b970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e3f6ba90>]}
+
+
+============================== 22:06:25.985922 | 6586ff9f-5e30-428f-bea0-04ea72fe1211 ==============================
+[0m22:06:25.985922 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:06:25.986356 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'fail_fast': 'False', 'debug': 'False', 'introspect': 'True', 'profiles_dir': '/home/vi/.dbt', 'log_format': 'default', 'static_parser': 'True', 'use_experimental_parser': 'False', 'write_json': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'target_path': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'version_check': 'True'}
+[0m22:06:25.986668 [warn ] [MainThread]: [OpenCommand]: Unable to parse dict {'open_cmd': 'xdg-open', 'profiles_dir': PosixPath('/home/vi/.dbt')}
+[0m22:06:25.986945 [info ] [MainThread]: To view your profiles.yml file, run:
+
+ 
+[0m22:06:25.987344 [debug] [MainThread]: Command `dbt debug` succeeded at 22:06:25.987272 after 0.00 seconds
+[0m22:06:25.987610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e568dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e3f6b970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e3f6b790>]}
+[0m22:06:25.988062 [debug] [MainThread]: Flushing usage events
+[0m22:07:49.413451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48d875cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48c16bfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48c16be80>]}
+
+
+============================== 22:07:49.414555 | 6bb66a9f-6ba8-425b-aafe-3e1df4acd872 ==============================
+[0m22:07:49.414555 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:07:49.414968 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'introspect': 'True', 'debug': 'False', 'use_colors': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'write_json': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'profiles_dir': '/home/vi/.dbt', 'no_print': 'None'}
+[0m22:07:49.415258 [warn ] [MainThread]: [OpenCommand]: Unable to parse dict {'open_cmd': 'xdg-open', 'profiles_dir': PosixPath('/home/vi/.dbt')}
+[0m22:07:49.415515 [info ] [MainThread]: To view your profiles.yml file, run:
+
+ 
+[0m22:07:49.415892 [debug] [MainThread]: Command `dbt debug` succeeded at 22:07:49.415821 after 0.01 seconds
+[0m22:07:49.416122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48d875cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48c16be80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa48c16bfd0>]}
+[0m22:07:49.416357 [debug] [MainThread]: Flushing usage events
+[0m22:08:03.341488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9018469c60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9016dc00d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9016dc00a0>]}
+
+
+============================== 22:08:03.342889 | 705d45a5-14b0-465a-8907-be711cafd509 ==============================
+[0m22:08:03.342889 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:08:03.343311 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'no_print': 'None', 'static_parser': 'True', 'introspect': 'True', 'printer_width': '80', 'use_colors': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'profiles_dir': '/home/vi/.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'use_experimental_parser': 'False', 'write_json': 'True', 'debug': 'False', 'target_path': 'None', 'quiet': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs'}
+[0m22:08:03.933501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '705d45a5-14b0-465a-8907-be711cafd509', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fe242e380>]}
+[0m22:08:03.942805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '705d45a5-14b0-465a-8907-be711cafd509', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fe2570040>]}
+[0m22:08:03.949927 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:08:03.950258 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:08:03.950544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '705d45a5-14b0-465a-8907-be711cafd509', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fe2234400>]}
+[0m22:08:04.345764 [error] [MainThread]: Encountered an error:
+Internal Error
+  Got an unexpected project version=1, expected 2
+[0m22:08:04.346383 [debug] [MainThread]: Command `dbt build` failed at 22:08:04.346283 after 1.01 seconds
+[0m22:08:04.346659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9018469c60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fe21aa770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fe21aa740>]}
+[0m22:08:04.346911 [debug] [MainThread]: Flushing usage events
+[0m22:08:24.403831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c7e469cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c7cdc0160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c7cdc00a0>]}
+
+
+============================== 22:08:24.404955 | 7daf35f2-0887-4dc3-a5de-223aeb69b70d ==============================
+[0m22:08:24.404955 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:08:24.405423 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'profiles_dir': '/home/vi/.dbt', 'quiet': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'version_check': 'True', 'static_parser': 'True', 'no_print': 'None', 'use_colors': 'True', 'write_json': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'indirect_selection': 'eager', 'introspect': 'True', 'warn_error': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'debug': 'False'}
+[0m22:08:24.849550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7daf35f2-0887-4dc3-a5de-223aeb69b70d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c4823c970>]}
+[0m22:08:24.859148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7daf35f2-0887-4dc3-a5de-223aeb69b70d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c4824ad70>]}
+[0m22:08:24.866191 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:08:24.866517 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:08:24.866812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7daf35f2-0887-4dc3-a5de-223aeb69b70d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c4826a620>]}
+[0m22:08:25.274565 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:08:25.332941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7daf35f2-0887-4dc3-a5de-223aeb69b70d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c480386d0>]}
+[0m22:08:25.336739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7daf35f2-0887-4dc3-a5de-223aeb69b70d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c48150cd0>]}
+[0m22:08:25.337033 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:08:25.337880 [info ] [MainThread]: 
+[0m22:08:25.338375 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:08:25.339105 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mission_launches_analytics'
+[0m22:08:25.339457 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:08:26.027402 [debug] [ThreadPool]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest("GET https://bigquery.googleapis.com/bigquery/v2/projects/mission_launches_analytics/datasets?maxResults=10000&prettyPrint=false: Invalid project ID 'mission_launches_analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.")
+[0m22:08:26.658100 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:08:26.659228 [debug] [MainThread]: Connection 'list_mission_launches_analytics' was properly closed.
+[0m22:08:26.660038 [info ] [MainThread]: 
+[0m22:08:26.661138 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.32 seconds (1.32s).
+[0m22:08:26.662441 [error] [MainThread]: Encountered an error:
+Database Error
+  Invalid project ID 'mission_launches_analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.
+[0m22:08:26.664120 [debug] [MainThread]: Command `dbt build` failed at 22:08:26.663860 after 2.27 seconds
+[0m22:08:26.664961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c7e469cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c48039f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c4803a530>]}
+[0m22:08:26.665879 [debug] [MainThread]: Flushing usage events
+[0m22:09:27.076703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5afef55cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5afd8ac160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5afd8ac130>]}
+
+
+============================== 22:09:27.077756 | a3a654b9-1d8a-4bc8-abee-6238914a9820 ==============================
+[0m22:09:27.077756 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:09:27.078148 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'target_path': 'None', 'profiles_dir': '/home/vi/.dbt', 'indirect_selection': 'eager', 'printer_width': '80', 'cache_selected_only': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'write_json': 'True', 'version_check': 'True', 'fail_fast': 'False', 'no_print': 'None', 'introspect': 'True', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'quiet': 'False', 'debug': 'False', 'partial_parse': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])'}
+[0m22:09:27.482787 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'mission-launches-analytics' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /home/vi/projects/de_camp/dbt/dbt_project.yml
+[0m22:09:27.483424 [debug] [MainThread]: Command `dbt build` failed at 22:09:27.483300 after 0.41 seconds
+[0m22:09:27.483673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ac8cfac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ac8cfadd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ac8cfa8c0>]}
+[0m22:09:27.483926 [debug] [MainThread]: Flushing usage events
+[0m22:10:17.059233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513f689d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513dfc8160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513dfc80a0>]}
+
+
+============================== 22:10:17.060486 | ae8934b7-71b3-4f9e-9889-c6710cb1ea61 ==============================
+[0m22:10:17.060486 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:10:17.060906 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'use_colors': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'version_check': 'True', 'profiles_dir': '/home/vi/.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'no_print': 'None', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'quiet': 'False'}
+[0m22:10:17.485315 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'mission-launches-analytics' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /home/vi/projects/de_camp/dbt/dbt_project.yml
+[0m22:10:17.485914 [debug] [MainThread]: Command `dbt build` failed at 22:10:17.485817 after 0.43 seconds
+[0m22:10:17.486166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513f689d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5109385ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5109386dd0>]}
+[0m22:10:17.486415 [debug] [MainThread]: Flushing usage events
+[0m22:14:34.526626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e69b55c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e684b0130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e684b00d0>]}
+
+
+============================== 22:14:34.527787 | b9a97f35-3c26-49b6-9f91-2a24c4355dd8 ==============================
+[0m22:14:34.527787 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:14:34.528188 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'use_experimental_parser': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'quiet': 'False', 'debug': 'False', 'use_colors': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'version_check': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/vi/.dbt', 'introspect': 'True', 'write_json': 'True', 'fail_fast': 'False', 'log_cache_events': 'False'}
+[0m22:14:34.924717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b9a97f35-3c26-49b6-9f91-2a24c4355dd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e338e4ca0>]}
+[0m22:14:34.933749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b9a97f35-3c26-49b6-9f91-2a24c4355dd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e338f2d40>]}
+[0m22:14:34.940739 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:14:34.945439 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:14:34.945740 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m22:14:34.946005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b9a97f35-3c26-49b6-9f91-2a24c4355dd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e33912560>]}
+[0m22:14:35.345315 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:14:35.400946 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:14:35.404023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b9a97f35-3c26-49b6-9f91-2a24c4355dd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e337eab90>]}
+[0m22:14:35.407616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b9a97f35-3c26-49b6-9f91-2a24c4355dd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e3387d8d0>]}
+[0m22:14:35.407900 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:14:35.408742 [info ] [MainThread]: 
+[0m22:14:35.409249 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:14:35.409904 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mission__analytics'
+[0m22:14:35.410175 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:14:36.221065 [debug] [ThreadPool]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest("GET https://bigquery.googleapis.com/bigquery/v2/projects/mission__analytics/datasets?maxResults=10000&prettyPrint=false: Invalid project ID 'mission__analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.")
+[0m22:14:37.349712 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:14:37.350843 [debug] [MainThread]: Connection 'list_mission__analytics' was properly closed.
+[0m22:14:37.351666 [info ] [MainThread]: 
+[0m22:14:37.352796 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.94 seconds (1.94s).
+[0m22:14:37.354064 [error] [MainThread]: Encountered an error:
+Database Error
+  Invalid project ID 'mission__analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.
+[0m22:14:37.354514 [debug] [MainThread]: Command `dbt build` failed at 22:14:37.354446 after 2.83 seconds
+[0m22:14:37.354753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e69b55c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e31962980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e319629b0>]}
+[0m22:14:37.355472 [debug] [MainThread]: Flushing usage events
+[0m22:15:09.080019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f230b659cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2309fb0160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2309fb0130>]}
+
+
+============================== 22:15:09.081092 | 938f6893-325a-4fe8-bad5-5d09f878c5b1 ==============================
+[0m22:15:09.081092 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:15:09.081482 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'version_check': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'write_json': 'True', 'printer_width': '80', 'profiles_dir': '/home/vi/.dbt', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'use_colors': 'True', 'debug': 'False', 'target_path': 'None', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'warn_error': 'None'}
+[0m22:15:09.476349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '938f6893-325a-4fe8-bad5-5d09f878c5b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d5420970>]}
+[0m22:15:09.485208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '938f6893-325a-4fe8-bad5-5d09f878c5b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d542eb00>]}
+[0m22:15:09.492056 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:15:09.496755 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:15:09.497066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '938f6893-325a-4fe8-bad5-5d09f878c5b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f230b584160>]}
+[0m22:15:09.893982 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:15:09.948673 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:15:09.951705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '938f6893-325a-4fe8-bad5-5d09f878c5b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d53062c0>]}
+[0m22:15:09.955231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '938f6893-325a-4fe8-bad5-5d09f878c5b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d5267e50>]}
+[0m22:15:09.955534 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:15:09.956372 [info ] [MainThread]: 
+[0m22:15:09.956853 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:15:09.957553 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mission_analytics'
+[0m22:15:09.957902 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:15:10.571935 [debug] [ThreadPool]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest("GET https://bigquery.googleapis.com/bigquery/v2/projects/mission_analytics/datasets?maxResults=10000&prettyPrint=false: Invalid project ID 'mission_analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.")
+[0m22:15:11.500130 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:15:11.501079 [debug] [MainThread]: Connection 'list_mission_analytics' was properly closed.
+[0m22:15:11.501847 [info ] [MainThread]: 
+[0m22:15:11.502961 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.55 seconds (1.55s).
+[0m22:15:11.504955 [error] [MainThread]: Encountered an error:
+Database Error
+  Invalid project ID 'mission_analytics'. Project IDs must contain 6-63 lowercase letters, digits, or dashes. Some project IDs also include domain name separated by a colon. IDs must start with a letter and may not end with a dash.
+[0m22:15:11.507605 [debug] [MainThread]: Command `dbt build` failed at 22:15:11.507186 after 2.43 seconds
+[0m22:15:11.509073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f230b659cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d52ae8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f22d52ae9e0>]}
+[0m22:15:11.510475 [debug] [MainThread]: Flushing usage events
+[0m22:17:35.637350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd57c57dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd57aed4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd57aed40a0>]}
+
+
+============================== 22:17:35.638425 | 1887c5cb-05ae-4ca4-a8b7-bd783856023b ==============================
+[0m22:17:35.638425 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:17:35.638834 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'debug': 'False', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/vi/.dbt', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'introspect': 'True', 'no_print': 'None', 'printer_width': '80', 'log_cache_events': 'False', 'cache_selected_only': 'False'}
+[0m22:17:36.032069 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'mission-analytics' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /home/vi/projects/de_camp/dbt/dbt_project.yml
+[0m22:17:36.032647 [debug] [MainThread]: Command `dbt build` failed at 22:17:36.032552 after 0.40 seconds
+[0m22:17:36.032895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd57c57dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd546326d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5463248e0>]}
+[0m22:17:36.033145 [debug] [MainThread]: Flushing usage events
+[0m22:18:12.379974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6bdfe71d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6bde7c8190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6bde7c80a0>]}
+
+
+============================== 22:18:12.381044 | 770ccb56-604e-4776-a4d2-0abcd2dbd655 ==============================
+[0m22:18:12.381044 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:18:12.381421 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/vi/.dbt', 'fail_fast': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'printer_width': '80', 'target_path': 'None', 'warn_error': 'None', 'no_print': 'None', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'write_json': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'introspect': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'version_check': 'True'}
+[0m22:18:12.775503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '770ccb56-604e-4776-a4d2-0abcd2dbd655', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba9b44d60>]}
+[0m22:18:12.784419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '770ccb56-604e-4776-a4d2-0abcd2dbd655', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba9b51750>]}
+[0m22:18:12.791278 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:18:12.795930 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:18:12.796229 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m22:18:12.796490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '770ccb56-604e-4776-a4d2-0abcd2dbd655', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6bdfd9c190>]}
+[0m22:18:13.196083 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:18:13.250271 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:18:13.253298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '770ccb56-604e-4776-a4d2-0abcd2dbd655', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba9ab5de0>]}
+[0m22:18:13.256948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '770ccb56-604e-4776-a4d2-0abcd2dbd655', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba9a63460>]}
+[0m22:18:13.257231 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:18:13.258063 [info ] [MainThread]: 
+[0m22:18:13.258559 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:18:13.259276 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mission'
+[0m22:18:13.259630 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:18:13.925191 [debug] [ThreadPool]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('GET https://bigquery.googleapis.com/bigquery/v2/projects/mission/datasets?maxResults=10000&prettyPrint=false: The project mission has not enabled BigQuery.')
+[0m22:18:14.541671 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:18:14.542793 [debug] [MainThread]: Connection 'list_mission' was properly closed.
+[0m22:18:14.543623 [info ] [MainThread]: 
+[0m22:18:14.544704 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.29 seconds (1.29s).
+[0m22:18:14.545901 [error] [MainThread]: Encountered an error:
+Database Error
+  The project mission has not enabled BigQuery.
+[0m22:18:14.546313 [debug] [MainThread]: Command `dbt build` failed at 22:18:14.546241 after 2.17 seconds
+[0m22:18:14.546534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6bdfe71d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba99d2860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ba99d2800>]}
+[0m22:18:14.546781 [debug] [MainThread]: Flushing usage events
+[0m22:20:16.957985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4c6e79cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4c57d8130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4c57d80d0>]}
+
+
+============================== 22:20:16.959072 | 439b8274-1c2c-4d94-8c3f-239f7d3521f3 ==============================
+[0m22:20:16.959072 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:20:16.959462 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'fail_fast': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'quiet': 'False', 'cache_selected_only': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'log_cache_events': 'False', 'static_parser': 'True', 'profiles_dir': '/home/vi/.dbt', 'use_colors': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'target_path': 'None', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'debug': 'False', 'introspect': 'True'}
+[0m22:20:17.355774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '439b8274-1c2c-4d94-8c3f-239f7d3521f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490c0ca30>]}
+[0m22:20:17.364777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '439b8274-1c2c-4d94-8c3f-239f7d3521f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490c1a260>]}
+[0m22:20:17.371587 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:20:17.376302 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:20:17.376611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '439b8274-1c2c-4d94-8c3f-239f7d3521f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4c6d2d000>]}
+[0m22:20:17.775613 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:20:17.830958 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:20:17.834089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '439b8274-1c2c-4d94-8c3f-239f7d3521f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490b86b30>]}
+[0m22:20:17.837695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '439b8274-1c2c-4d94-8c3f-239f7d3521f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490b31ff0>]}
+[0m22:20:17.837991 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:20:17.838867 [info ] [MainThread]: 
+[0m22:20:17.839360 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:20:17.840080 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mission'
+[0m22:20:17.840318 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:20:17.840575 [debug] [ThreadPool]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: '../../credentials/de-camp-v1-f45c6758b882.json''
+[0m22:20:17.841388 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:20:17.841603 [debug] [MainThread]: Connection 'list_mission' was properly closed.
+[0m22:20:17.841902 [info ] [MainThread]: 
+[0m22:20:17.842175 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.00 seconds (0.00s).
+[0m22:20:17.842486 [error] [MainThread]: Encountered an error:
+Database Error
+  [Errno 2] No such file or directory: '../../credentials/de-camp-v1-f45c6758b882.json'
+[0m22:20:17.842907 [debug] [MainThread]: Command `dbt build` failed at 22:20:17.842836 after 0.89 seconds
+[0m22:20:17.843133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4c6e79cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490c3a950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd490c39d20>]}
+[0m22:20:17.843355 [debug] [MainThread]: Flushing usage events
+[0m22:22:47.156662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fbbf85d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fba8c4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fba8c4100>]}
+
+
+============================== 22:22:47.157758 | 31213b54-4c2b-4651-b217-9c2f2346a9e8 ==============================
+[0m22:22:47.157758 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:22:47.158144 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'warn_error': 'None', 'no_print': 'None', 'profiles_dir': '/home/vi/.dbt', 'debug': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'use_colors': 'True', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'log_cache_events': 'False', 'target_path': 'None', 'fail_fast': 'False', 'log_format': 'default', 'introspect': 'True', 'version_check': 'True', 'static_parser': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True'}
+[0m22:22:47.552869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85d38d60>]}
+[0m22:22:47.561986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85d47700>]}
+[0m22:22:47.568999 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:22:47.573761 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:22:47.574077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fbbb98190>]}
+[0m22:22:47.970008 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:22:48.024841 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:22:48.027896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85c2a200>]}
+[0m22:22:48.031515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85c43460>]}
+[0m22:22:48.031811 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:22:48.032668 [info ] [MainThread]: 
+[0m22:22:48.033165 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:22:48.033858 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m22:22:48.034199 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:22:48.873854 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now create_de-camp-v1_mission_launches_dataset)
+[0m22:22:48.876021 [debug] [ThreadPool]: Creating schema "database: "de-camp-v1"
+schema: "mission_launches_dataset"
+"
+[0m22:22:48.884884 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:22:48.913738 [debug] [ThreadPool]: On create_de-camp-v1_mission_launches_dataset: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "connection_name": "create_de-camp-v1_mission_launches_dataset"} */
+create schema if not exists `de-camp-v1`.`mission_launches_dataset`
+  
+[0m22:22:50.553337 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:17379a58-1b4e-4ffa-a53c-58cd8ff2616b&page=queryresults
+[0m22:22:50.556363 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_de-camp-v1_mission_launches_dataset, now list_de-camp-v1_mission_launches_dataset)
+[0m22:22:50.556609 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:22:51.228196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85c50100>]}
+[0m22:22:51.230423 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:22:51.231696 [info ] [MainThread]: 
+[0m22:22:51.255162 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:22:51.256739 [info ] [Thread-1 (]: 1 of 2 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m22:22:51.258738 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m22:22:51.259756 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m22:22:51.266891 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:22:51.268703 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 22:22:51.260386 => 22:22:51.268113
+[0m22:22:51.269513 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m22:22:51.290564 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:22:51.290991 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:22:51.319813 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:22:52.171640 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:527fe5b5-d54f-4d03-a762-ec1e270bd19b&page=queryresults
+[0m22:22:52.173813 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 22:22:51.270019 => 22:22:52.173211
+[0m22:22:52.187696 [debug] [Thread-1 (]: Database Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)
+  Access Denied: Table de-camp:space_mission_launches.mission_launches: User does not have permission to query table de-camp:space_mission_launches.mission_launches, or perhaps it does not exist in location US.
+  compiled Code at target/run/missions/models/staging/stg_space_mission_launches__mission_launches.sql
+[0m22:22:52.188090 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31213b54-4c2b-4651-b217-9c2f2346a9e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f77974340>]}
+[0m22:22:52.188500 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[31mERROR[0m in 0.93s]
+[0m22:22:52.188881 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:22:52.189712 [debug] [Thread-3 (]: Began running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:22:52.190019 [info ] [Thread-3 (]: 2 of 2 SKIP test not_null_stg_space_mission_launches__mission_launches_organisation  [[33mSKIP[0m]
+[0m22:22:52.190363 [debug] [Thread-3 (]: Finished running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:22:52.191657 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:22:52.191880 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m22:22:52.192089 [info ] [MainThread]: 
+[0m22:22:52.192355 [info ] [MainThread]: Finished running 1 view model, 1 test in 0 hours 0 minutes and 4.16 seconds (4.16s).
+[0m22:22:52.192753 [debug] [MainThread]: Command end result
+[0m22:22:52.198377 [info ] [MainThread]: 
+[0m22:22:52.198720 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m22:22:52.198978 [info ] [MainThread]: 
+[0m22:22:52.199228 [error] [MainThread]: [33mDatabase Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)[0m
+[0m22:22:52.199476 [error] [MainThread]:   Access Denied: Table de-camp:space_mission_launches.mission_launches: User does not have permission to query table de-camp:space_mission_launches.mission_launches, or perhaps it does not exist in location US.
+[0m22:22:52.199704 [error] [MainThread]:   compiled Code at target/run/missions/models/staging/stg_space_mission_launches__mission_launches.sql
+[0m22:22:52.199934 [info ] [MainThread]: 
+[0m22:22:52.200200 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m22:22:52.200646 [debug] [MainThread]: Command `dbt build` failed at 22:22:52.200565 after 5.05 seconds
+[0m22:22:52.200882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fbbf85d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f85d47700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f779aa860>]}
+[0m22:22:52.201117 [debug] [MainThread]: Flushing usage events
+[0m22:25:34.124611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa35bd75d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa35a6cc190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa35a6cc160>]}
+
+
+============================== 22:25:34.125691 | f099dae0-0433-4f07-80b9-9f007d1ac50e ==============================
+[0m22:25:34.125691 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:25:34.126085 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'quiet': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'version_check': 'True', 'indirect_selection': 'eager', 'no_print': 'None', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'profiles_dir': '/home/vi/.dbt', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'use_colors': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'debug': 'False'}
+[0m22:25:34.521280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa325b10d60>]}
+[0m22:25:34.530313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa325b1f700>]}
+[0m22:25:34.537176 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:25:34.550476 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m22:25:34.550890 [debug] [MainThread]: Partial parsing: updated file: missions://models/staging/src_space_mission_launches.yaml
+[0m22:25:34.565240 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:25:34.602552 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:25:34.605567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa325997eb0>]}
+[0m22:25:34.609085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3258d9c60>]}
+[0m22:25:34.609375 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:25:34.610206 [info ] [MainThread]: 
+[0m22:25:34.610698 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:25:34.611409 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m22:25:34.611775 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:25:35.276217 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now list_de-camp-v1_mission_launches_dataset)
+[0m22:25:35.277500 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:25:35.990992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3258b3eb0>]}
+[0m22:25:35.993149 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:25:35.994397 [info ] [MainThread]: 
+[0m22:25:35.997966 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:25:35.998375 [info ] [Thread-1 (]: 1 of 2 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m22:25:35.998860 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m22:25:35.999110 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m22:25:36.001906 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:25:36.003608 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 22:25:35.999270 => 22:25:36.002995
+[0m22:25:36.004035 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m22:25:36.027271 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:25:36.027697 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:25:36.056904 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:25:36.912096 [debug] [Thread-1 (]: BigQuery adapter: Unhandled error while running:
+/* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:25:36.913662 [debug] [Thread-1 (]: BigQuery adapter: 404 Not found: Dataset de-camp-v1:space_mission_launches was not found in location US
+
+Location: US
+Job ID: c3953820-0c6a-43a3-9cdb-4776dd2fffc0
+
+[0m22:25:36.915058 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 22:25:36.004200 => 22:25:36.914720
+[0m22:25:36.916703 [debug] [Thread-1 (]: Runtime Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)
+  404 Not found: Dataset de-camp-v1:space_mission_launches was not found in location US
+  
+  Location: US
+  Job ID: c3953820-0c6a-43a3-9cdb-4776dd2fffc0
+  
+[0m22:25:36.917007 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f099dae0-0433-4f07-80b9-9f007d1ac50e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3259220b0>]}
+[0m22:25:36.917416 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[31mERROR[0m in 0.92s]
+[0m22:25:36.917809 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:25:36.918682 [debug] [Thread-3 (]: Began running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:25:36.918987 [info ] [Thread-3 (]: 2 of 2 SKIP test not_null_stg_space_mission_launches__mission_launches_organisation  [[33mSKIP[0m]
+[0m22:25:36.919331 [debug] [Thread-3 (]: Finished running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:25:36.922087 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:25:36.922840 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m22:25:36.923511 [info ] [MainThread]: 
+[0m22:25:36.924565 [info ] [MainThread]: Finished running 1 view model, 1 test in 0 hours 0 minutes and 2.31 seconds (2.31s).
+[0m22:25:36.926148 [debug] [MainThread]: Command end result
+[0m22:25:36.931004 [info ] [MainThread]: 
+[0m22:25:36.931455 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m22:25:36.931837 [info ] [MainThread]: 
+[0m22:25:36.932214 [error] [MainThread]: [33mRuntime Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)[0m
+[0m22:25:36.932469 [error] [MainThread]:   404 Not found: Dataset de-camp-v1:space_mission_launches was not found in location US
+[0m22:25:36.932733 [error] [MainThread]:   
+[0m22:25:36.932983 [error] [MainThread]:   Location: US
+[0m22:25:36.933207 [error] [MainThread]:   Job ID: c3953820-0c6a-43a3-9cdb-4776dd2fffc0
+[0m22:25:36.933426 [error] [MainThread]:   
+[0m22:25:36.933656 [info ] [MainThread]: 
+[0m22:25:36.933952 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m22:25:36.934464 [debug] [MainThread]: Command `dbt build` failed at 22:25:36.934376 after 2.81 seconds
+[0m22:25:36.934749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa35bd75d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa31f98ffd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa32596e530>]}
+[0m22:25:36.935010 [debug] [MainThread]: Flushing usage events
+[0m22:27:27.507130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa089e6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0887cc130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0887cc0d0>]}
+
+
+============================== 22:27:27.508218 | 04db2635-d9d9-47ea-9d85-7346bde8647f ==============================
+[0m22:27:27.508218 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:27:27.508608 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'quiet': 'False', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'target_path': 'None', 'version_check': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'warn_error': 'None', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'debug': 'False', 'static_parser': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'profiles_dir': '/home/vi/.dbt', 'write_json': 'True', 'log_format': 'default'}
+[0m22:27:27.907102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053b78a30>]}
+[0m22:27:27.915943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053b864a0>]}
+[0m22:27:27.922822 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:27:27.927541 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:27:27.927872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa089d21000>]}
+[0m22:27:28.326037 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:27:28.381149 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:27:28.384287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053a48b50>]}
+[0m22:27:28.388030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053b0dff0>]}
+[0m22:27:28.388341 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:27:28.389248 [info ] [MainThread]: 
+[0m22:27:28.389794 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:27:28.390521 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m22:27:28.390774 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:27:29.145676 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now list_de-camp-v1_mission_launches_dataset)
+[0m22:27:29.146325 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:27:29.774018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053aa1630>]}
+[0m22:27:29.774976 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:27:29.775457 [info ] [MainThread]: 
+[0m22:27:29.782483 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:27:29.783202 [info ] [Thread-1 (]: 1 of 2 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m22:27:29.784137 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m22:27:29.784644 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m22:27:29.789410 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:27:29.790783 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 22:27:29.784962 => 22:27:29.790240
+[0m22:27:29.791571 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m22:27:29.819691 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:27:29.820244 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:29.856059 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:27:30.251631 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('POST https://bigquery.googleapis.com/bigquery/v2/projects/de-camp-v1/jobs?prettyPrint=false: Location us-east-1 does not support this operation.')
+[0m22:27:30.864267 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:us-east-1:b0dfdf54-7513-4a8c-bc09-58ed486bb9a6&page=queryresults
+[0m22:27:30.866495 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 22:27:29.792097 => 22:27:30.865908
+[0m22:27:30.870240 [debug] [Thread-1 (]: Database Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)
+  Location us-east-1 does not support this operation.
+  compiled Code at target/run/missions/models/staging/stg_space_mission_launches__mission_launches.sql
+[0m22:27:30.870556 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '04db2635-d9d9-47ea-9d85-7346bde8647f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053a07640>]}
+[0m22:27:30.870980 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[31mERROR[0m in 1.09s]
+[0m22:27:30.871343 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:27:30.872253 [debug] [Thread-3 (]: Began running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:27:30.872560 [info ] [Thread-3 (]: 2 of 2 SKIP test not_null_stg_space_mission_launches__mission_launches_organisation  [[33mSKIP[0m]
+[0m22:27:30.872918 [debug] [Thread-3 (]: Finished running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:27:30.874237 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:27:30.874461 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m22:27:30.874705 [info ] [MainThread]: 
+[0m22:27:30.874972 [info ] [MainThread]: Finished running 1 view model, 1 test in 0 hours 0 minutes and 2.49 seconds (2.49s).
+[0m22:27:30.875361 [debug] [MainThread]: Command end result
+[0m22:27:30.881205 [info ] [MainThread]: 
+[0m22:27:30.881576 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m22:27:30.881870 [info ] [MainThread]: 
+[0m22:27:30.882168 [error] [MainThread]: [33mDatabase Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)[0m
+[0m22:27:30.882447 [error] [MainThread]:   Location us-east-1 does not support this operation.
+[0m22:27:30.882736 [error] [MainThread]:   compiled Code at target/run/missions/models/staging/stg_space_mission_launches__mission_launches.sql
+[0m22:27:30.883008 [info ] [MainThread]: 
+[0m22:27:30.883325 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m22:27:30.883839 [debug] [MainThread]: Command `dbt build` failed at 22:27:30.883743 after 3.38 seconds
+[0m22:27:30.884109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa089e6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa053b864a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0539b1240>]}
+[0m22:27:30.884392 [debug] [MainThread]: Flushing usage events
+[0m22:30:05.651567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3acb6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3ab4ac130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3ab4ac070>]}
+
+
+============================== 22:30:05.652648 | 125b4886-81f8-4bb8-9372-9493bd9d8c03 ==============================
+[0m22:30:05.652648 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:30:05.653034 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'debug': 'False', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'introspect': 'True', 'target_path': 'None', 'use_colors': 'True', 'warn_error': 'None', 'quiet': 'False', 'static_parser': 'True', 'profiles_dir': '/home/vi/.dbt', 'write_json': 'True', 'no_print': 'None'}
+[0m22:30:06.057652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3768e4a30>]}
+[0m22:30:06.066572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3768f2260>]}
+[0m22:30:06.073405 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:30:06.078043 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:30:06.078359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3ac709000>]}
+[0m22:30:06.476733 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m22:30:06.531831 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m22:30:06.534893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3767cae90>]}
+[0m22:30:06.538484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd376979ff0>]}
+[0m22:30:06.538790 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m22:30:06.539638 [info ] [MainThread]: 
+[0m22:30:06.540131 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:30:06.540841 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m22:30:06.541076 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:30:07.356035 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now list_de-camp-v1_mission_launches_dataset)
+[0m22:30:07.357263 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:30:07.990649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd376815630>]}
+[0m22:30:07.992665 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:30:07.993733 [info ] [MainThread]: 
+[0m22:30:07.999218 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:30:07.999580 [info ] [Thread-1 (]: 1 of 2 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m22:30:08.000042 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m22:30:08.000287 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m22:30:08.006002 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:30:08.006453 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 22:30:08.000655 => 22:30:08.006282
+[0m22:30:08.006738 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m22:30:08.025551 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m22:30:08.025941 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:30:08.055247 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:30:08.888832 [debug] [Thread-1 (]: BigQuery adapter: Unhandled error while running:
+/* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m22:30:08.890357 [debug] [Thread-1 (]: BigQuery adapter: 404 Not found: Dataset de-camp-v1:mission_launches_dataset was not found in location us-east1
+
+Location: us-east1
+Job ID: 7e3c5365-c3f5-4cc6-9a6f-173397cd1a88
+
+[0m22:30:08.892068 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 22:30:08.006909 => 22:30:08.891456
+[0m22:30:08.893968 [debug] [Thread-1 (]: Runtime Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)
+  404 Not found: Dataset de-camp-v1:mission_launches_dataset was not found in location us-east1
+  
+  Location: us-east1
+  Job ID: 7e3c5365-c3f5-4cc6-9a6f-173397cd1a88
+  
+[0m22:30:08.895236 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '125b4886-81f8-4bb8-9372-9493bd9d8c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd374963af0>]}
+[0m22:30:08.896836 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[31mERROR[0m in 0.90s]
+[0m22:30:08.898296 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m22:30:08.900758 [debug] [Thread-3 (]: Began running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:30:08.901817 [info ] [Thread-3 (]: 2 of 2 SKIP test not_null_stg_space_mission_launches__mission_launches_organisation  [[33mSKIP[0m]
+[0m22:30:08.903162 [debug] [Thread-3 (]: Finished running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m22:30:08.907262 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:30:08.908111 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m22:30:08.908893 [info ] [MainThread]: 
+[0m22:30:08.909896 [info ] [MainThread]: Finished running 1 view model, 1 test in 0 hours 0 minutes and 2.37 seconds (2.37s).
+[0m22:30:08.911390 [debug] [MainThread]: Command end result
+[0m22:30:08.919501 [info ] [MainThread]: 
+[0m22:30:08.919806 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m22:30:08.920060 [info ] [MainThread]: 
+[0m22:30:08.920305 [error] [MainThread]: [33mRuntime Error in model stg_space_mission_launches__mission_launches (models/staging/stg_space_mission_launches__mission_launches.sql)[0m
+[0m22:30:08.920549 [error] [MainThread]:   404 Not found: Dataset de-camp-v1:mission_launches_dataset was not found in location us-east1
+[0m22:30:08.920784 [error] [MainThread]:   
+[0m22:30:08.921010 [error] [MainThread]:   Location: us-east1
+[0m22:30:08.921232 [error] [MainThread]:   Job ID: 7e3c5365-c3f5-4cc6-9a6f-173397cd1a88
+[0m22:30:08.921462 [error] [MainThread]:   
+[0m22:30:08.921689 [info ] [MainThread]: 
+[0m22:30:08.921956 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m22:30:08.922407 [debug] [MainThread]: Command `dbt build` failed at 22:30:08.922327 after 3.28 seconds
+[0m22:30:08.922695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3acb6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3768f2260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd374919750>]}
+[0m22:30:08.922942 [debug] [MainThread]: Flushing usage events
+[0m23:00:10.276294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb45a97dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb4592d4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb4592d40d0>]}
+
+
+============================== 23:00:10.277371 | ebc4bf72-96eb-4a22-8c57-10a19121c40e ==============================
+[0m23:00:10.277371 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:00:10.277764 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'printer_width': '80', 'profiles_dir': '/home/vi/.dbt', 'write_json': 'True', 'log_format': 'default', 'introspect': 'True', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'cache_selected_only': 'False', 'static_parser': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'version_check': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager'}
+[0m23:00:10.677791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb42474cd60>]}
+[0m23:00:10.686743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb42475bb20>]}
+[0m23:00:10.693626 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:00:10.698314 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m23:00:10.698631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb45a5a8190>]}
+[0m23:00:11.096519 [debug] [MainThread]: 1699: static parser successfully parsed staging/stg_space_mission_launches__mission_launches.sql
+[0m23:00:11.151651 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m23:00:11.154713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb424626860>]}
+[0m23:00:11.158294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb424667460>]}
+[0m23:00:11.158595 [info ] [MainThread]: Found 1 model, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m23:00:11.159449 [info ] [MainThread]: 
+[0m23:00:11.159938 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:00:11.160660 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m23:00:11.160992 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:00:11.963100 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now create_de-camp-v1_mission_launches_dataset)
+[0m23:00:11.965238 [debug] [ThreadPool]: Creating schema "database: "de-camp-v1"
+schema: "mission_launches_dataset"
+"
+[0m23:00:11.974698 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:00:12.003549 [debug] [ThreadPool]: On create_de-camp-v1_mission_launches_dataset: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "connection_name": "create_de-camp-v1_mission_launches_dataset"} */
+create schema if not exists `de-camp-v1`.`mission_launches_dataset`
+  
+[0m23:00:13.804120 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:93c6e85d-d477-4cfb-947c-f9dace14903e&page=queryresults
+[0m23:00:13.809073 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_de-camp-v1_mission_launches_dataset, now list_de-camp-v1_mission_launches_dataset)
+[0m23:00:13.810381 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:00:14.522631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb42465c100>]}
+[0m23:00:14.524841 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:00:14.526032 [info ] [MainThread]: 
+[0m23:00:14.539172 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m23:00:14.540482 [info ] [Thread-1 (]: 1 of 2 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m23:00:14.542256 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m23:00:14.543323 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m23:00:14.546022 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m23:00:14.546468 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 23:00:14.544009 => 23:00:14.546314
+[0m23:00:14.546756 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m23:00:14.562980 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m23:00:14.563462 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:00:14.592623 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m23:00:16.213980 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:22f62883-926c-4b5d-92bc-8f68fc10880b&page=queryresults
+[0m23:00:16.226326 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 23:00:14.546923 => 23:00:16.226186
+[0m23:00:16.226808 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ebc4bf72-96eb-4a22-8c57-10a19121c40e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb42245c400>]}
+[0m23:00:16.227216 [info ] [Thread-1 (]: 1 of 2 OK created sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[32mCREATE VIEW (0 processed)[0m in 1.69s]
+[0m23:00:16.227688 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m23:00:16.228468 [debug] [Thread-3 (]: Began running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m23:00:16.228765 [info ] [Thread-3 (]: 2 of 2 START test not_null_stg_space_mission_launches__mission_launches_organisation  [RUN]
+[0m23:00:16.229301 [debug] [Thread-3 (]: Acquiring new bigquery connection 'test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd'
+[0m23:00:16.229545 [debug] [Thread-3 (]: Began compiling node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m23:00:16.239848 [debug] [Thread-3 (]: Writing injected SQL for node "test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd"
+[0m23:00:16.240607 [debug] [Thread-3 (]: Timing info for test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd (compile): 23:00:16.229716 => 23:00:16.240412
+[0m23:00:16.240962 [debug] [Thread-3 (]: Began executing node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m23:00:16.255881 [debug] [Thread-3 (]: Writing runtime sql for node "test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd"
+[0m23:00:16.256400 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:00:16.286031 [debug] [Thread-3 (]: On test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select organisation
+from `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+where organisation is null
+
+
+
+      
+    ) dbt_internal_test
+[0m23:00:18.475639 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:25c1148c-255d-4184-9746-6a9194dd6df4&page=queryresults
+[0m23:00:18.480485 [debug] [Thread-3 (]: Timing info for test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd (execute): 23:00:16.241197 => 23:00:18.479840
+[0m23:00:18.482660 [info ] [Thread-3 (]: 2 of 2 PASS not_null_stg_space_mission_launches__mission_launches_organisation . [[32mPASS[0m in 2.25s]
+[0m23:00:18.484563 [debug] [Thread-3 (]: Finished running node test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd
+[0m23:00:18.489002 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:00:18.489897 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m23:00:18.490693 [debug] [MainThread]: Connection 'test.missions.not_null_stg_space_mission_launches__mission_launches_organisation.e8bdbdfdfd' was properly closed.
+[0m23:00:18.491524 [info ] [MainThread]: 
+[0m23:00:18.492520 [info ] [MainThread]: Finished running 1 view model, 1 test in 0 hours 0 minutes and 7.33 seconds (7.33s).
+[0m23:00:18.493438 [debug] [MainThread]: Command end result
+[0m23:00:18.498347 [info ] [MainThread]: 
+[0m23:00:18.498691 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:00:18.498958 [info ] [MainThread]: 
+[0m23:00:18.499228 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m23:00:18.499660 [debug] [MainThread]: Command `dbt build` succeeded at 23:00:18.499584 after 8.23 seconds
+[0m23:00:18.499892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb45a97dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb42465f3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb4245749a0>]}
+[0m23:00:18.500130 [debug] [MainThread]: Flushing usage events
+[0m20:08:01.503695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc31cd55cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc31b6ac0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc31b6ac070>]}
+
+
+============================== 20:08:01.504874 | e9087467-ec9b-433c-8b63-3ddc7f5c6f68 ==============================
+[0m20:08:01.504874 [info ] [MainThread]: Running with dbt=1.5.0
+[0m20:08:01.505329 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'no_print': 'None', 'cache_selected_only': 'False', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'use_colors': 'True', 'debug': 'False', 'warn_error': 'None', 'target_path': 'None', 'log_format': 'default', 'static_parser': 'True', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/home/vi/.dbt', 'log_cache_events': 'False', 'printer_width': '80', 'write_json': 'True', 'version_check': 'True', 'introspect': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])'}
+[0m20:08:02.050482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e9087467-ec9b-433c-8b63-3ddc7f5c6f68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2e6b2c970>]}
+[0m20:08:02.061066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e9087467-ec9b-433c-8b63-3ddc7f5c6f68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2e6b3f040>]}
+[0m20:08:02.069073 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m20:08:02.084776 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m20:08:02.085248 [debug] [MainThread]: Partial parsing: added file: missions://models/aggregated/avg_price_by_year.sql
+[0m20:08:02.085627 [debug] [MainThread]: Partial parsing: added file: missions://models/aggregated/agg_count_price_by_organisations.sql
+[0m20:08:02.102516 [debug] [MainThread]: 1699: static parser successfully parsed aggregated/avg_price_by_year.sql
+[0m20:08:02.113817 [debug] [MainThread]: 1699: static parser successfully parsed aggregated/agg_count_price_by_organisations.sql
+[0m20:08:02.116276 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.missions.avg_price_by_year' (models/aggregated/avg_price_by_year.sql) depends on a node named 'mission_launches' which was not found
+[0m20:08:02.116983 [debug] [MainThread]: Command `dbt run` failed at 20:08:02.116860 after 0.62 seconds
+[0m20:08:02.117357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc31cd55cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2e6913ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2e6913c40>]}
+[0m20:08:02.117725 [debug] [MainThread]: Flushing usage events
+[0m20:09:32.347478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2066871cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20651b00d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20651b00a0>]}
+
+
+============================== 20:09:32.348888 | 92690c52-de1c-4a0a-8bf0-a451ebc91913 ==============================
+[0m20:09:32.348888 [info ] [MainThread]: Running with dbt=1.5.0
+[0m20:09:32.349362 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'no_print': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'introspect': 'True', 'use_colors': 'True', 'profiles_dir': '/home/vi/.dbt', 'quiet': 'False', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'fail_fast': 'False', 'printer_width': '80', 'log_format': 'default', 'target_path': 'None', 'cache_selected_only': 'False'}
+[0m20:09:32.834649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f203062c8b0>]}
+[0m20:09:32.844957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f203063b040>]}
+[0m20:09:32.852835 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m20:09:32.869471 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m20:09:32.869829 [debug] [MainThread]: Partial parsing: added file: missions://models/aggregated/agg_count_price_by_organisations.sql
+[0m20:09:32.870096 [debug] [MainThread]: Partial parsing: added file: missions://models/aggregated/avg_price_by_year.sql
+[0m20:09:32.886761 [debug] [MainThread]: 1699: static parser successfully parsed aggregated/agg_count_price_by_organisations.sql
+[0m20:09:32.898606 [debug] [MainThread]: 1699: static parser successfully parsed aggregated/avg_price_by_year.sql
+[0m20:09:32.903580 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m20:09:32.907809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20304865f0>]}
+[0m20:09:32.912100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20305c7e80>]}
+[0m20:09:32.912424 [info ] [MainThread]: Found 3 models, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m20:09:32.912756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20305c7f40>]}
+[0m20:09:32.913790 [info ] [MainThread]: 
+[0m20:09:32.914459 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m20:09:32.915443 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m20:09:32.915903 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:09:33.737709 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now list_de-camp-v1_mission_launches_dataset)
+[0m20:09:33.738378 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:09:34.385150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20305c7d30>]}
+[0m20:09:34.387414 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m20:09:34.388693 [info ] [MainThread]: 
+[0m20:09:34.409760 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m20:09:34.410991 [info ] [Thread-1 (]: 1 of 3 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m20:09:34.412603 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m20:09:34.413511 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m20:09:34.420503 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m20:09:34.422190 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 20:09:34.414113 => 20:09:34.421564
+[0m20:09:34.423062 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m20:09:34.452456 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m20:09:34.452939 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:09:34.490021 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m20:09:36.401552 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:8548725b-5c89-4783-9895-41e92e579e11&page=queryresults
+[0m20:09:36.420747 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 20:09:34.423612 => 20:09:36.420594
+[0m20:09:36.421241 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2030485cc0>]}
+[0m20:09:36.421655 [info ] [Thread-1 (]: 1 of 3 OK created sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[32mCREATE VIEW (0 processed)[0m in 2.01s]
+[0m20:09:36.422123 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m20:09:36.422863 [debug] [Thread-3 (]: Began running node model.missions.agg_count_price_by_organisations
+[0m20:09:36.423593 [debug] [Thread-4 (]: Began running node model.missions.avg_price_by_year
+[0m20:09:36.423267 [info ] [Thread-3 (]: 2 of 3 START sql view model mission_launches_dataset.agg_count_price_by_organisations  [RUN]
+[0m20:09:36.424737 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.missions.agg_count_price_by_organisations'
+[0m20:09:36.425012 [debug] [Thread-3 (]: Began compiling node model.missions.agg_count_price_by_organisations
+[0m20:09:36.426830 [debug] [Thread-3 (]: Writing injected SQL for node "model.missions.agg_count_price_by_organisations"
+[0m20:09:36.427457 [debug] [Thread-3 (]: Timing info for model.missions.agg_count_price_by_organisations (compile): 20:09:36.425185 => 20:09:36.427290
+[0m20:09:36.423927 [info ] [Thread-4 (]: 3 of 3 START sql view model mission_launches_dataset.avg_price_by_year ......... [RUN]
+[0m20:09:36.427918 [debug] [Thread-3 (]: Began executing node model.missions.agg_count_price_by_organisations
+[0m20:09:36.428526 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.missions.avg_price_by_year'
+[0m20:09:36.431068 [debug] [Thread-3 (]: Writing runtime sql for node "model.missions.agg_count_price_by_organisations"
+[0m20:09:36.431616 [debug] [Thread-4 (]: Began compiling node model.missions.avg_price_by_year
+[0m20:09:36.434406 [debug] [Thread-4 (]: Writing injected SQL for node "model.missions.avg_price_by_year"
+[0m20:09:36.435042 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m20:09:36.435904 [debug] [Thread-4 (]: Timing info for model.missions.avg_price_by_year (compile): 20:09:36.432126 => 20:09:36.435545
+[0m20:09:36.436499 [debug] [Thread-4 (]: Began executing node model.missions.avg_price_by_year
+[0m20:09:36.441295 [debug] [Thread-4 (]: Writing runtime sql for node "model.missions.avg_price_by_year"
+[0m20:09:36.442093 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m20:09:36.484075 [debug] [Thread-3 (]: On model.missions.agg_count_price_by_organisations: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.agg_count_price_by_organisations"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`agg_count_price_by_organisations`
+  OPTIONS()
+  as SELECT
+    organisation
+,   mission_status
+,   count(*) as count_by_status
+,   round(sum(price),6) as price
+FROM
+    `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+group by organisation , mission_status
+order by organisation,mission_status;
+
+
+[0m20:09:36.486012 [debug] [Thread-4 (]: On model.missions.avg_price_by_year: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.avg_price_by_year"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`avg_price_by_year`
+  OPTIONS()
+  as SELECT
+    date_trunc(date, YEAR)
+,   round(avg(price),6) as price
+FROM
+    `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+group by date
+order by date;
+
+
+[0m20:09:37.963991 [debug] [Thread-4 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE VIEW columns must be named, but column 1 has no name at [6:6]')
+[0m20:09:37.998818 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:08da17a4-15a2-4f3e-8754-0548dbf3f06f&page=queryresults
+[0m20:09:38.003356 [debug] [Thread-3 (]: Timing info for model.missions.agg_count_price_by_organisations (execute): 20:09:36.428831 => 20:09:38.002903
+[0m20:09:38.005025 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f202e5a4130>]}
+[0m20:09:38.006509 [info ] [Thread-3 (]: 2 of 3 OK created sql view model mission_launches_dataset.agg_count_price_by_organisations  [[32mCREATE VIEW (0 processed)[0m in 1.58s]
+[0m20:09:38.008229 [debug] [Thread-3 (]: Finished running node model.missions.agg_count_price_by_organisations
+[0m20:09:39.628408 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:8bcd2dad-475e-4f43-a9fa-a44c56d016f1&page=queryresults
+[0m20:09:39.630712 [debug] [Thread-4 (]: Timing info for model.missions.avg_price_by_year (execute): 20:09:36.436806 => 20:09:39.630100
+[0m20:09:39.637650 [debug] [Thread-4 (]: Database Error in model avg_price_by_year (models/aggregated/avg_price_by_year.sql)
+  CREATE VIEW columns must be named, but column 1 has no name at [6:6]
+  compiled Code at target/run/missions/models/aggregated/avg_price_by_year.sql
+[0m20:09:39.638805 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92690c52-de1c-4a0a-8bf0-a451ebc91913', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f202e5a72b0>]}
+[0m20:09:39.640441 [error] [Thread-4 (]: 3 of 3 ERROR creating sql view model mission_launches_dataset.avg_price_by_year  [[31mERROR[0m in 3.21s]
+[0m20:09:39.641961 [debug] [Thread-4 (]: Finished running node model.missions.avg_price_by_year
+[0m20:09:39.645110 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:09:39.645817 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m20:09:39.646391 [debug] [MainThread]: Connection 'model.missions.agg_count_price_by_organisations' was properly closed.
+[0m20:09:39.646934 [debug] [MainThread]: Connection 'model.missions.avg_price_by_year' was properly closed.
+[0m20:09:39.647431 [info ] [MainThread]: 
+[0m20:09:39.648034 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 6.73 seconds (6.73s).
+[0m20:09:39.649339 [debug] [MainThread]: Command end result
+[0m20:09:39.654791 [info ] [MainThread]: 
+[0m20:09:39.655095 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m20:09:39.655357 [info ] [MainThread]: 
+[0m20:09:39.655616 [error] [MainThread]: [33mDatabase Error in model avg_price_by_year (models/aggregated/avg_price_by_year.sql)[0m
+[0m20:09:39.655887 [error] [MainThread]:   CREATE VIEW columns must be named, but column 1 has no name at [6:6]
+[0m20:09:39.656118 [error] [MainThread]:   compiled Code at target/run/missions/models/aggregated/avg_price_by_year.sql
+[0m20:09:39.656349 [info ] [MainThread]: 
+[0m20:09:39.656606 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+[0m20:09:39.657020 [debug] [MainThread]: Command `dbt run` failed at 20:09:39.656950 after 7.31 seconds
+[0m20:09:39.657248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2066871cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2030420b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20305c7b50>]}
+[0m20:09:39.657478 [debug] [MainThread]: Flushing usage events
+[0m20:10:27.937969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c5ed6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c5d6b00a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c5d6b0040>]}
+
+
+============================== 20:10:27.939219 | b2e234e6-a539-4710-8c01-f139836bd238 ==============================
+[0m20:10:27.939219 [info ] [MainThread]: Running with dbt=1.5.0
+[0m20:10:27.939708 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': '/home/vi/.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'version_check': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'quiet': 'False', 'printer_width': '80', 'warn_error': 'None', 'log_path': '/home/vi/projects/de_camp/dbt/logs', 'target_path': 'None', 'use_colors': 'True', 'static_parser': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'no_print': 'None'}
+[0m20:10:28.408673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28b2c970>]}
+[0m20:10:28.420588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28b3f040>]}
+[0m20:10:28.428915 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m20:10:28.444253 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:10:28.444674 [debug] [MainThread]: Partial parsing: updated file: missions://models/aggregated/avg_price_by_year.sql
+[0m20:10:28.464311 [debug] [MainThread]: 1699: static parser successfully parsed aggregated/avg_price_by_year.sql
+[0m20:10:28.476438 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mission_launches_analytics.staging
+[0m20:10:28.480160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c2897dff0>]}
+[0m20:10:28.484538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28af22c0>]}
+[0m20:10:28.484913 [info ] [MainThread]: Found 3 models, 1 test, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics, 0 groups
+[0m20:10:28.485286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28af23b0>]}
+[0m20:10:28.486650 [info ] [MainThread]: 
+[0m20:10:28.487679 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m20:10:28.488878 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_de-camp-v1'
+[0m20:10:28.489226 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:10:29.240037 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de-camp-v1, now list_de-camp-v1_mission_launches_dataset)
+[0m20:10:29.241275 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:10:29.956097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28af13f0>]}
+[0m20:10:29.958142 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m20:10:29.959299 [info ] [MainThread]: 
+[0m20:10:29.967808 [debug] [Thread-1 (]: Began running node model.missions.stg_space_mission_launches__mission_launches
+[0m20:10:29.969190 [info ] [Thread-1 (]: 1 of 3 START sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [RUN]
+[0m20:10:29.970991 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de-camp-v1_mission_launches_dataset, now model.missions.stg_space_mission_launches__mission_launches)
+[0m20:10:29.971949 [debug] [Thread-1 (]: Began compiling node model.missions.stg_space_mission_launches__mission_launches
+[0m20:10:29.978259 [debug] [Thread-1 (]: Writing injected SQL for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m20:10:29.979454 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (compile): 20:10:29.972585 => 20:10:29.979027
+[0m20:10:29.980202 [debug] [Thread-1 (]: Began executing node model.missions.stg_space_mission_launches__mission_launches
+[0m20:10:30.008241 [debug] [Thread-1 (]: Writing runtime sql for node "model.missions.stg_space_mission_launches__mission_launches"
+[0m20:10:30.009000 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:10:30.048400 [debug] [Thread-1 (]: On model.missions.stg_space_mission_launches__mission_launches: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.stg_space_mission_launches__mission_launches"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+  OPTIONS()
+  as select
+    `organisation`                    as  `organisation`
+,   `location`                        as  `location`
+,   `date`                            as  `date`
+,   `detail`                          as  `detail`
+,   `rocket_status`                   as  `rocket_status`
+,   `price`                           as  `price`
+,   `mission_status`                  as  `mission_status`
+,   `country`                         as  `country`
+from `de-camp-v1`.`space_mission_launches`.`mission_launches`
+order by `date`;
+
+
+[0m20:10:31.592549 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:8d09ba08-fcca-4890-a9bb-9a28e3d7fb53&page=queryresults
+[0m20:10:31.606592 [debug] [Thread-1 (]: Timing info for model.missions.stg_space_mission_launches__mission_launches (execute): 20:10:29.980662 => 20:10:31.606404
+[0m20:10:31.607120 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c26a13e80>]}
+[0m20:10:31.607579 [info ] [Thread-1 (]: 1 of 3 OK created sql view model mission_launches_dataset.stg_space_mission_launches__mission_launches  [[32mCREATE VIEW (0 processed)[0m in 1.64s]
+[0m20:10:31.608109 [debug] [Thread-1 (]: Finished running node model.missions.stg_space_mission_launches__mission_launches
+[0m20:10:31.608815 [debug] [Thread-3 (]: Began running node model.missions.agg_count_price_by_organisations
+[0m20:10:31.609208 [info ] [Thread-3 (]: 2 of 3 START sql view model mission_launches_dataset.agg_count_price_by_organisations  [RUN]
+[0m20:10:31.610032 [debug] [Thread-4 (]: Began running node model.missions.avg_price_by_year
+[0m20:10:31.610975 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.missions.agg_count_price_by_organisations'
+[0m20:10:31.611613 [info ] [Thread-4 (]: 3 of 3 START sql view model mission_launches_dataset.avg_price_by_year ......... [RUN]
+[0m20:10:31.612126 [debug] [Thread-3 (]: Began compiling node model.missions.agg_count_price_by_organisations
+[0m20:10:31.612711 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.missions.avg_price_by_year'
+[0m20:10:31.614978 [debug] [Thread-3 (]: Writing injected SQL for node "model.missions.agg_count_price_by_organisations"
+[0m20:10:31.615456 [debug] [Thread-4 (]: Began compiling node model.missions.avg_price_by_year
+[0m20:10:31.617845 [debug] [Thread-4 (]: Writing injected SQL for node "model.missions.avg_price_by_year"
+[0m20:10:31.618581 [debug] [Thread-3 (]: Timing info for model.missions.agg_count_price_by_organisations (compile): 20:10:31.612989 => 20:10:31.618289
+[0m20:10:31.618987 [debug] [Thread-3 (]: Began executing node model.missions.agg_count_price_by_organisations
+[0m20:10:31.625143 [debug] [Thread-4 (]: Timing info for model.missions.avg_price_by_year (compile): 20:10:31.615801 => 20:10:31.624644
+[0m20:10:31.625414 [debug] [Thread-4 (]: Began executing node model.missions.avg_price_by_year
+[0m20:10:31.626825 [debug] [Thread-3 (]: Writing runtime sql for node "model.missions.agg_count_price_by_organisations"
+[0m20:10:31.629613 [debug] [Thread-4 (]: Writing runtime sql for node "model.missions.avg_price_by_year"
+[0m20:10:31.630570 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m20:10:31.631359 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m20:10:31.671460 [debug] [Thread-4 (]: On model.missions.avg_price_by_year: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.avg_price_by_year"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`avg_price_by_year`
+  OPTIONS()
+  as SELECT
+    date_trunc(date, YEAR)     as `year`
+,   round(avg(price),6)        as avg_price
+FROM
+    `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+group by date
+order by date;
+
+
+[0m20:10:31.672310 [debug] [Thread-3 (]: On model.missions.agg_count_price_by_organisations: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "de-camp-project", "target_name": "dev", "node_id": "model.missions.agg_count_price_by_organisations"} */
+
+
+  create or replace view `de-camp-v1`.`mission_launches_dataset`.`agg_count_price_by_organisations`
+  OPTIONS()
+  as SELECT
+    organisation
+,   mission_status
+,   count(*) as count_by_status
+,   round(sum(price),6) as price
+FROM
+    `de-camp-v1`.`mission_launches_dataset`.`stg_space_mission_launches__mission_launches`
+group by organisation , mission_status
+order by organisation,mission_status;
+
+
+[0m20:10:33.271342 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:e524c499-44eb-41a0-be37-eb141a6ab003&page=queryresults
+[0m20:10:33.274494 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-camp-v1&j=bq:US:b69f6e8b-40ea-4ad4-a75d-b6a014538e4f&page=queryresults
+[0m20:10:33.279596 [debug] [Thread-4 (]: Timing info for model.missions.avg_price_by_year (execute): 20:10:31.627053 => 20:10:33.279054
+[0m20:10:33.284688 [debug] [Thread-3 (]: Timing info for model.missions.agg_count_price_by_organisations (execute): 20:10:31.619266 => 20:10:33.284194
+[0m20:10:33.286702 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c26a73190>]}
+[0m20:10:33.288726 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b2e234e6-a539-4710-8c01-f139836bd238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c26a9feb0>]}
+[0m20:10:33.290491 [info ] [Thread-4 (]: 3 of 3 OK created sql view model mission_launches_dataset.avg_price_by_year .... [[32mCREATE VIEW (0 processed)[0m in 1.67s]
+[0m20:10:33.292569 [info ] [Thread-3 (]: 2 of 3 OK created sql view model mission_launches_dataset.agg_count_price_by_organisations  [[32mCREATE VIEW (0 processed)[0m in 1.68s]
+[0m20:10:33.294717 [debug] [Thread-4 (]: Finished running node model.missions.avg_price_by_year
+[0m20:10:33.296467 [debug] [Thread-3 (]: Finished running node model.missions.agg_count_price_by_organisations
+[0m20:10:33.300839 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:10:33.301618 [debug] [MainThread]: Connection 'model.missions.stg_space_mission_launches__mission_launches' was properly closed.
+[0m20:10:33.302261 [debug] [MainThread]: Connection 'model.missions.agg_count_price_by_organisations' was properly closed.
+[0m20:10:33.302846 [debug] [MainThread]: Connection 'model.missions.avg_price_by_year' was properly closed.
+[0m20:10:33.303547 [info ] [MainThread]: 
+[0m20:10:33.304724 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 4.82 seconds (4.82s).
+[0m20:10:33.306414 [debug] [MainThread]: Command end result
+[0m20:10:33.310857 [info ] [MainThread]: 
+[0m20:10:33.311348 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:10:33.311801 [info ] [MainThread]: 
+[0m20:10:33.312231 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m20:10:33.312930 [debug] [MainThread]: Command `dbt run` succeeded at 20:10:33.312798 after 5.38 seconds
+[0m20:10:33.313294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c5ed6dcc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c28b3f040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c26a731f0>]}
+[0m20:10:33.313679 [debug] [MainThread]: Flushing usage events
