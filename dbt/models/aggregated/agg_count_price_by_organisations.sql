@@ -6,4 +6,4 @@ SELECT
 FROM
     {{ ref('stg_space_mission_launches__mission_launches') }}
 group by organisation , mission_status
-order by organisation,mission_status
+order by organisation, mission_status
