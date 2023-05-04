@@ -14,6 +14,7 @@ What is done:
    First task gets data from dataset source bucket, unzip it, makes transformations
    and loads new data to datalake.
    Second task loads data from data lake to DWH BigQuery.
+   As dataset is small enough DWH optimisations are not uses because it`s meaningless.
 3. Based on BigQuery dataset dbt models are build. 
    Staging model describe dataset from DWH and aggregated models contain 
    mission launches data aggregated by organisations, statuses and years.
