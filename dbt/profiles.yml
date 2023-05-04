@@ -2,7 +2,7 @@ de-camp-project:
   target: dev
   outputs:
     dev:
-      project: mission-launches-analytics
+      project: de-camp-v1
       dataset: mission_launches_dataset
       job_execution_timeout_seconds: 300
       job_retries: 1
